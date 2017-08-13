@@ -1,0 +1,11 @@
+{
+	"items": [
+		{"name": "Online-Screensaver",
+			"items" : [
+				{"name": "Update now",            "priority":1, "action": "bin/update.sh"},
+				{"name": "Enable auto-download",  "priority":2, "action": "bin/enable.sh"},  
+				{"name": "Disable auto-download", "priority":3, "action": "bin/disable.sh"}
+			]
+		}
+	]
+}
